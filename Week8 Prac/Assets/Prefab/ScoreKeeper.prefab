@@ -43,4 +43,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 444c3701a4d11394190d9b2623b82a8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsPerPick: 0
+  pointsPerPick: 1

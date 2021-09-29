@@ -186,7 +186,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_RootOrder: 1
+=======
+  m_RootOrder: 5
+>>>>>>> Stashed changes
 =======
   m_RootOrder: 5
 >>>>>>> Stashed changes
@@ -280,11 +284,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8841526214855309700, guid: 5fc23d6da6224c4499d0c2071454af26, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8841526214855309700, guid: 5fc23d6da6224c4499d0c2071454af26, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< Updated upstream
       value: 5
+=======
+      value: 0
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 8841526214855309700, guid: 5fc23d6da6224c4499d0c2071454af26, type: 3}
       propertyPath: m_LocalPosition.y
@@ -341,7 +349,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4242330048306080343, guid: eb26f998b1e42054eb9f31c85f867ac8, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< Updated upstream
       value: 0
+=======
+      value: 5
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 4242330048306080343, guid: eb26f998b1e42054eb9f31c85f867ac8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -394,7 +406,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4790209375077967080, guid: 1d278896e3cccc3468d7640372869446, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< Updated upstream
       value: 2
+=======
+      value: 4
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 4790209375077967080, guid: 1d278896e3cccc3468d7640372869446, type: 3}
       propertyPath: m_LocalPosition.x

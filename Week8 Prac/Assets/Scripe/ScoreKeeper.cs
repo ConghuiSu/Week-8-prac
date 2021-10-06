@@ -5,7 +5,8 @@ using UnityEngine;
 public class ScoreKeeper : MonoBehaviour
 {
     static private ScoreKeeper instance;
-    private int score;
+    private int scoreForPlayer1;
+    private int scoreForPlayer2;
     public int pointsPerPick;
 
     public static ScoreKeeper Instance
@@ -15,11 +16,19 @@ public class ScoreKeeper : MonoBehaviour
             return instance;
         }
     }
-    public int Score
+    public int ScoreForPlayer1
     {
         get
         {
-            return score;
+            return scoreForPlayer1;
+        }
+    }
+    
+    public int ScoreForPlayer2
+    {
+        get
+        {
+            return scoreForPlayer2;
         }
     }
     // Start is called before the first frame update
@@ -33,8 +42,12 @@ public class ScoreKeeper : MonoBehaviour
     {
         
     }
-    public void AddPointsPerPick()
+    public void AddPointsPerPickP1()
     {
-        score+=pointsPerPick;
+        scoreForPlayer1+=pointsPerPick;
+    }
+    public void AddPointsPerPickP2()
+    {
+        scoreForPlayer2+=pointsPerPick;
     }
 }
